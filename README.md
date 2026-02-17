@@ -58,7 +58,9 @@ When running the script, you will be asked to type:
 
 ## 🧾 Using the Chinese C Code
 
-In your C program, include:
+1 install file dragon_empire.h and place in your work directory
+
+2 In your C program, include:
 
 ```c
 #include "dragon_empire.h"
@@ -73,7 +75,7 @@ Then you can write code like:
 }
 ```
 
-The preprocessor will convert it back to standard C before compilation.
+The preprocessor will convert it back to standard C before compilation. and it will work like a regular C code without efecting on speed of work
 
 ---
 
