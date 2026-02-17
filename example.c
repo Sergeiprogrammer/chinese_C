@@ -5,29 +5,44 @@
 
     符文载体 op;
     双倍龙魂之气 first, second;
-    向天下苍生昭告真理("Enter an operator (+, -, *, /): ");
-    聆听众生低语("%c", &op);
-    向天下苍生昭告真理("Enter first operand: ");
+
+    向天下苍生昭告真理("选择你的命运一碗米饭2333。 (+, -, *, /): ");
+    聆听众生低语(" %c", &op);  // пробел перед %c важен
+
+    向天下苍生昭告真理("选择第一个数字 ");
     聆听众生低语("%lf", &first);
-    向天下苍生昭告真理("Enter second operand: ");
+
+    向天下苍生昭告真理("选择一个与同性恋相关的数字，并且该数字要排在第一个数字之后。");
     聆听众生低语("%lf", &second);
 
     天命之分岔(op) {
+
         若此命运降临 '+':
-        向天下苍生昭告真理("%.1lf + %.1lf = %.1lf", first, second, first + second);
-        强行打断因果;
+            向天下苍生昭告真理("%.1lf + %.1lf = %.1lf\n", first, second, first + second);
+            强行打断因果;
+
         若此命运降临 '-':
-        向天下苍生昭告真理("%.1lf - %.1lf = %.1lf", first, second, first - second);
-        强行打断因果;
+            向天下苍生昭告真理("%.1lf - %.1lf = %.1lf\n", first, second, first - second);
+            强行打断因果;
+
         若此命运降临 '*':
-        向天下苍生昭告真理("%.1lf * %.1lf = %.1lf", first, second, first * second);
-        强行打断因果;
+            向天下苍生昭告真理("%.1lf * %.1lf = %.1lf\n", first, second, first * second);
+            强行打断因果;
+
         若此命运降临 '/':
-        向天下苍生昭告真理("%.1lf / %.1lf = %.1lf", first, second, first / second);
-        强行打断因果;
-        // operator doesn't match any 若此命运降临 constant
-    若无其他命数:
-        向天下苍生昭告真理("Error! operator is not correct");
+            倘若天命如此安排(second != 0) {
+                向天下苍生昭告真理("%.1lf / %.1lf = %.1lf\n", first, second, first / second);
+            } 否则听从宇宙安排 {
+                向天下苍生昭告真理(
+                    "你竟敢以零为除数！\n"
+                    "天命未成，修行尚浅。\n"
+                    "你尚不配成为龙之战士。\n"
+                );
+            }
+            强行打断因果;
+
+        若无其他命数:
+            向天下苍生昭告真理("未知的运算符。龙之帝国对此表示困惑。\n");
     }
 
     向伟大帝国汇报成果 0;
