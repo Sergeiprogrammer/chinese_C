@@ -83,7 +83,7 @@ The preprocessor will convert it back to standard C before compilation. and it w
 
 ## 📂 Example
 
-See `example.c` for a working sample.
+See `example.c` and `example_chinese.c` for a working sample.
 
 ---
 
@@ -100,7 +100,7 @@ This project is useful for understanding:
 
 ## ⚔️ Why?
 
-Because sometimes you must demonstrate loyalty to the Dragon Empire.
+IDK
 
 ---
 
