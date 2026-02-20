@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "dragon_empire.h"
+#define _CRT_SECURE_NO_WARNINGS
+
 
 我宣誓效忠伟大帝国的生产力 伟大领袖亲自降临() {
 
