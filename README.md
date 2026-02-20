@@ -13,6 +13,8 @@ There are two components:
 
 1. `translate.py` – converts English C code ↔ Chinese-style code
 2. `dragon_empire.h` – maps Chinese phrases back to real C keywords using `#define`
+3. `example.c` – c code exmaple in english
+4. `example_chinese.c` – c code example in chinese
 
 The compiler only sees normal C after preprocessing.
 
